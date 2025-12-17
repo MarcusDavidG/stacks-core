@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: secure-escrow
+            expected-sender: ST3P3DPDB69YP0Z259SS6MSA16GBQEBF8KG8P96D2
+            cost: 60870
+            path: contracts/secure-escrow.clar
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"

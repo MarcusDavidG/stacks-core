@@ -1,0 +1,6 @@
+[network]
+name = "testnet"
+
+[accounts.deployer]
+mnemonic = "tube school delay discover broom gallery ahead arena ceiling kid biology spell bachelor section initial wall join public major aisle question hotel maid hurt"
+# stx_address: ST3P3DPDB69YP0Z259SS6MSA16GBQEBF8KG8P96D2
